@@ -1,15 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import PI, { doublePi, triplePi } from "./math.js";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(
-  <div>
-    <ul>
-      <li>{PI}</li>
-      <li>{doublePi()}</li>
-      <li>{triplePi()}</li>
-    </ul>
-  </div>
-);
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
