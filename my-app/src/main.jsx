@@ -1,12 +1,9 @@
 import { createRoot } from "react-dom/client";
 
+const name = "Amala";
+const num = 4;
 createRoot(document.getElementById("root")).render(
-  <div>
-    <h1>My Favourite Food</h1>
-    <ul>
-      <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
-    </ul>
-  </div>,
+  <h1>
+    Hello {name}! Your lucky number is {num}
+  </h1>,
 );
