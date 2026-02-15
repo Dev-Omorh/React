@@ -6,7 +6,7 @@ createRoot(document.getElementById("root")).render(
     <div>
       <h1 className="heading">My Favourite Food</h1>
 
-      <ul>
+      <ul className="list">
         <li>Bacon</li>
         <li>Jamon</li>
         <li>Noodles</li>
