@@ -1,7 +1,8 @@
 import { createRoot } from "react-dom/client";
 
 const name = "Omolade Ajala";
-const year = 2019;
+const currentDate = new Date();
+const year = currentDate.getFullYear();
 
 createRoot(document.getElementById("root")).render(
   <>
