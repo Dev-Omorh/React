@@ -1,12 +1,16 @@
 import { createRoot } from "react-dom/client";
-
-const name = "Omolade Ajala";
-const currentDate = new Date();
-const year = currentDate.getFullYear();
+import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <>
-    <h1>Created by {name}</h1>
-    <p>Copyright by {year}</p>
+    <div>
+      <h1 className="heading">My Favourite Food</h1>
+
+      <ul>
+        <li>Bacon</li>
+        <li>Jamon</li>
+        <li>Noodles</li>
+      </ul>
+    </div>
   </>,
 );
