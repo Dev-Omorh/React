@@ -16,4 +16,4 @@ if (currentHour < 12) {
   greeting = "Good Night";
 }
 
-createRoot(document.getElementById("root")).render(<h1>{greeting}</h1>);
+createRoot(document.getElementById("root")).render(<h1 style={customStyle}>{greeting}</h1>);
