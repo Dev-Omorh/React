@@ -1,8 +1,5 @@
 import { createRoot } from "react-dom/client";
-
-function Heading() {
-  return <h1>My Favourite Food</h1>;
-}
+import Heading from "./Heading";
 
 createRoot(document.getElementById("root")).render(
   <>
