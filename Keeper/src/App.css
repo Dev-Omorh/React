@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  background-color: #facc15;
+  color: #111;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: auto;
+}
