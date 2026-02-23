@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1 className="heading">My Contacts</h1>
+      <h1 className="heading text-center text-3xl font-bold">My Contacts</h1>
       <Card
         name={contacts[0].name}
         img={contacts[0].imgURL}
