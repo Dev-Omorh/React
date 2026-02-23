@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <Note className="note" />
+      <Note />
       <Footer />
     </>
   );
