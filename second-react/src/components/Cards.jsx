@@ -1,16 +1,20 @@
-function Cards(Props) {
-  <div>
-    <div className="card">
-      <div className="top">
-        <h2 className="name">{Props.name}</h2>
-        <img className="circle-img" src={Props.img} alt="avatar_img" />
-      </div>
-      <div className="bottom">
-        <p className="info">{Props.tel}</p>
-        <p className="info">{Props.email}</p>
+import Avater from "./Avatar";
+
+function Cards(props) {
+  return (
+    <div>
+      <div className="card">
+        <div className="top">
+          <h2 className="name">{props.name}</h2>
+          <Avater img={props.img} />
+        </div>
+        <div className="bottom">
+          <p className="info">{props.tel}</p>
+          <p className="info">{props.email}</p>
+        </div>
       </div>
     </div>
-  </div>;
+  );
 }
 
 export default Cards;
