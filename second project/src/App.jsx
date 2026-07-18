@@ -1,9 +1,10 @@
 import Post from "./componenet/Post";
+import PostList from "./componenet/PostList";
 
 function App() {
   return (
     <>
-      <Post />
+      <PostList />
     </>
   );
 }
